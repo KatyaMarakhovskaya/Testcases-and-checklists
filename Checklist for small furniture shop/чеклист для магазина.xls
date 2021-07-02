@@ -1,0 +1,125 @@
+	Build				
+	Environment				
+	Test date				
+	Tester				
+					
+Priority	Functionality	Feature should be verified	Status (passed/failed)		
+					
+	Domain				
+high		Domain name shows the website			
+	Main manu in header verification				
+high		Contacts tab redirects to Contact inforrmation			
+high		About us tab redirects to About us inforrmation			
+high		Furniture tab redirects to Furniture section			
+high		Accesories tab redirects to Accesories section			
+	Item card in Accesories section				
+high		Open an item card			
+low		Enlarge the image			
+low		Posibility to show the next image in slider			
+low		Posibility to show the previous image in slider			
+low		The small image under the slider is shown			
+high		The button Buy redirects to shopping Basket with added item			
+high		Close the item card			
+high		Return to More products section			
+	Item card in Furniture section				
+high		Open an item card			
+low		Enlarge the image			
+low		Posibility to show the next image in slider			
+low		Posibility to show the previous image in slider			
+low		The small image under the slider is shown			
+high		The button Buy redirects to shopping Basket with added item			
+high		Close the item card			
+high		Return to More products section			
+	Shopping Basket				
+high		Add an item to the basket			
+high		Add different items to the basket			
+high		Delete one item from the basket			
+high		Delete all items from the basket			
+high		Increase the number of the same items in the basket (correct prise calculation)			
+high		Decrease the number of the same items of items in the basket (correct prise calculation)			
+high		Add maximum position to the basket(100)			
+high		It is impossible to add more than maximum position to the basket(>100)			
+high		Reload the page (the items are in the basket)			
+high		Clean cash (the basket is empty)			
+high		"Check Email field (cannot be empty, list for Email checking added in the end of the document)"			
+high		Order checkout button redirects to payment page (if email is valid and at least 1 item is in the basket)			
+	Order checkout				
+high		"Other payment method button shows the list of different payment methods : Card, 24, LiqPay, Cash, MasterPass, Bil"			
+high		User proceed checkout with the payment method - Privat24			
+high		User proceed checkout with the payment method - Gpay			
+high		User proceed checkout with the payment method - Card			
+high		User proceed checkout with the payment method - LiqPay			
+high		User proceed checkout with the payment method - MasterPass			
+high		User proceed checkout with the payment method - Bill			
+high		User proceed checkout with the payment method - Cash			
+high		Cancel payment			
+	Exhibition				
+medium		Button Paticipate redirects to Patisipation page			
+medium		"Check Email field (cannot be empty, list for Email checking added in the end of the document)"			
+medium		"User can choose the meal in the Meals section(cannot be empty,all values are valid)
+"			
+medium		"Registration with guest (both values are valid,only one radio button can be selected)"			
+medium		If User choses to come with guest the field Guest`s name cannot be ampty			
+medium		"If User choses to come with guest the User can filled Guest`s name field (Only Latin and Cyrillic, minlenght - 2, maxlenght - 100)"			
+low		"If User choses to come with guest User can choose the meal for the guest(cannot be empty,all values are valid)"			
+low		If User choses to come without guest in the Guest's name field is not available			
+low		If User choses to come without guest in the Guest's meal area is not available			
+low		"The form can be sended in both cases - if User decided to come with guest or without
+"			
+medium		Button sends the form (if the form is filled with valid data)			
+medium		"Added record should be shown in CRM system
+"			
+	Sign up for the newsletter				
+medium		"Check Email field (cannot be empty, list for Email checking added in the end of the document)"			
+medium		Added record should be shown in CRM system			
+	Sosial media links				
+medium		Facebook button redirects to the store`s page in Facebook			
+medium		Twitter button redirects to the store`s page in Twitter			
+medium		Pinterest button redirects to the store`s page in Pinterest			
+					
+					
+	List for Email checking				
+					
+	List of Valid email addresses				
+		email@example.com			
+		firstname.lastname@example.com			
+		email@subdomain.example.com			
+		firstname+lastname@example.com			
+		email@123.123.123.123			
+		email@[123.123.123.123]			
+		"""email""@example.com"			
+		"""email""@example.com"			
+		1234567890@example.com			
+		email@example-one.com			
+		_______@example.com			
+		email@example.name			
+		email@example.museum			
+		email@example.co.jp			
+		firstname-lastname@example.com			
+	List of unusual Valid email addresses				
+		much.”more\ unusual”@example.com			
+		much.”more\ unusual”@example.com			
+		very.unusual.”@”.unusual.com@example.com			
+		"very.”(),:;<>[]”.VERY.”very@\\ "			
+		"""very”.unusual@strange.example.com"			
+	List of Invalid Email Addresses				
+		plainaddress			
+		#@%^%#$@#$@#.com			
+		@example.com			
+		Joe Smith <email@example.com>			
+		email.example.com			
+		email@example@example.com			
+		.email@example.com			
+		email.@example.com			
+		email..email@example.com			
+		?????@example.com			
+		???????????????@example.com			
+		email@example.com (Joe Smith)			
+		email@example			
+		email@-example.com			
+		email@example.web			
+		email@111.222.333.44444			
+		email@example..com			
+		Abc..123@example.com			
+		"”(),:;<>[\]@example.com"			
+		this\ is"really"not\allowed@example.com			
